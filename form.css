@@ -101,24 +101,6 @@ p {
   font-size: 18px;
 }
 
-.htmlformat {
-  display: inline;
-}
-
-
-.secondary label {
-  float: left;
-  width: 20%;
-  clear: both;
-}
-
-.secondary input {
-  float: left;
- width: 75%;
- padding-top: 10px;
-
-
-}
 
 textarea {
   width: 80%;
