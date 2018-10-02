@@ -109,7 +109,7 @@ textarea {
 }
 
 button {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   margin-top: 40px;
   text-align: center;
   padding: 15px 20px;
@@ -127,6 +127,10 @@ button {
   color: #424242;
 }
 
+.copyright {
+  text-align: center;
+  padding-bottom: 10px;
+}
 
 ::placeholder {
   text-align: right;
@@ -139,6 +143,59 @@ button {
 button {
   cursor: pointer;
 }
+
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+}
+
+input[type="radio"] {
+  display: inline-block;
+  width: 20px;
+  margin-right: 5px;
+}
+
+input[type="email"],
+ [type="text"],
+ [type="name"],
+ [type="tel"] {
+   transition: background-color 2s;
+ }
+
+input[type="email"]:focus,
+ [type="text"]:focus,
+ [type="name"]:focus ,
+ [type="tel"]:focus
+   {
+  background-color: #c8e0e7;
+
+
+  }
+
+textarea {
+  transition: background-color 2s;
+}
+
+textarea[name="user_topics"]:focus {
+  background-color: #c8e0e7;
+}
+
+input[type="text"]:required:valid,
+ [type="email"]:required:valid {
+
+     background: url('images/check.png');
+     background-size: 25px;
+     background-repeat: no-repeat;
+     background-position: right;
+     background-color: white;
+     padding-right: 5px;
+
+ }
+
+
+
 
 
 
