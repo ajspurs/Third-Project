@@ -183,7 +183,9 @@ textarea[name="user_topics"]:focus {
 }
 
 input[type="text"]:required:valid,
- [type="email"]:required:valid {
+ [type="email"]:required:valid,
+ [type="tel"]:required:valid,
+ [type="text"]:required:valid {
 
      background: url('images/check.png');
      background-size: 25px;
