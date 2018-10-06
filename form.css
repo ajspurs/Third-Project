@@ -25,6 +25,7 @@ h1 {
   color: white;
   padding: 20px 0;
   font-family: 'Oswald';
+  margin: 0;
 }
 
 h2 {
@@ -172,7 +173,7 @@ input[type="email"]:focus,
  [type="name"]:focus ,
  [type="tel"]:focus {
   background-color: #c8e0e7;
-  
+
   }
 
 textarea {
@@ -206,7 +207,7 @@ input[type="text"]:required:valid,
   }
 
   main {
-
+    width: 60%;
   }
 
   .form-entry label {
